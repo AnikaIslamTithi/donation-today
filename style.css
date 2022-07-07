@@ -1,13 +1,15 @@
 body{
     background-image: url(donation13.jpg);
-    background-position: top;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    position: relative;
 }
 .banner-section{
     color: white;
     text-align: center;
-    font-family: Noto Sans Japanese;
+    font-family: sans-serif;
     margin: 0 auto;
     width: 56%;
     padding: 10%;
@@ -29,16 +31,36 @@ p{
     padding: 12px 24px;
     border-radius: 8px;
     color: white;
+    margin-top: 15px;
 }
-/*.amount-section{
-
+.amount-section{
+    height: 700px;
+    background-color: white;
+    background-size: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto ;
+    padding: 10px 20px 40px;
 }
-h2{
-    font-size: 65px;
-    font-weight: 500;
+h3{
+    font-size: 50px;
+    font-weight: 700;
 }
-<div class="amount-section">
-    <h2>Donate Today</h2>
-    <p>The Bangladeshi government has declared a state of emergency and is appealing for international assistance. aid organizations are working around the clock to provide relief to those affected by the floods. The scale of this disaster is high, but together we can provide immediate relief for all affected.
-    DFS has created a Bangladesh flood action plan, which gives food parcels, medicines, and even a build-a-home option to help those who have lost everything due to the flooding. Please donate and together we can help Sylhet overcome this terrible tragedy.</p>
-</div>
+.amount-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+    font-size: 40px;
+    font-weight: 700;
+}
+.amt-text-size{
+    height: 120px;
+    width: 150px;
+    margin: 20px;
+    border: 20px;
+}
+.donate-par-color{
+    text-align: center;
+    color: rgb(100, 98, 98);
+}
