@@ -64,3 +64,67 @@ h3{
     text-align: center;
     color: rgb(100, 98, 98);
 }
+.donation-plan-section{
+    margin-top: 70px;
+    padding: 50px;
+    justify-content: space-evenly;
+    height: 700px;
+    background-color: white;
+    background-size: auto;
+    text-align: center;
+    font-family: sans-serif;
+    margin: 0 auto ;
+    padding: 10px 20px 40px;
+    }
+.donation-plan-card{
+    display: flex;
+    text-align: center;
+    gap: 75px;
+    margin: 10px 40px;
+}
+h4{
+    font-weight: 900;
+    text-align: start;
+    padding-left: 15px;
+}
+.food{
+    width: 370px;
+    height: 400PX;
+    border: 1px solid gray;
+    text-align: left;
+    box-shadow: 8px 8px 16px gray;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+    background-color: rgb(214, 232, 239);
+}
+.shelter{
+    width: 370px;
+    height: 400PX;
+    border: 1px solid gray;
+    text-align: left;
+    box-shadow: 8px 8px 16px gray;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+    background-color: rgb(242, 227, 229);
+}
+.education{
+    width: 370px;
+    height: 400PX;
+    border: 1px solid gray;
+    text-align: left;
+    box-shadow: 8px 8px 16px gray;
+    padding: 22px;
+    border-radius: 10px;
+    margin-top: 40px;
+    transition: .8ms;
+    background-color: rgb(240, 220, 194);
+}
+.donation-plan-card:hover{
+    border: 1px solid rgb(243, 29, 29);
+    margin-top: -20px;
+    transition: .8ms;
+}
